@@ -5,7 +5,7 @@ export default {
     repo: 'clicknetpro/boostbank',
     branch: 'master',
     squash_merges: true,
-    Uncomment these lines and replace the base URL when deploying to Vercel
+    // Uncomment these lines and replace the base URL when deploying to Vercel
     base_url: 'https://us-central1-boostbank.cloudfunctions.net/',
     auth_endpoint: '/oauthAuthorize',
   },
