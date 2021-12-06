@@ -2,17 +2,17 @@ export default {
   cms_manual_init: true,
   backend: {
     name: 'github',
-    repo: 'jakeprins/serverless-saas',
+    repo: 'clicknetpro/boostbank',
     branch: 'master',
     squash_merges: true,
     // Uncomment these lines and replace the base URL when deploying to Vercel
-    // base_url: 'https://us-central1-serverless-saas.cloudfunctions.net/',
-    // auth_endpoint: '/oauthAuthorize',
+    base_url: 'https://us-central1-boostbank.cloudfunctions.net/',
+    auth_endpoint: '/oauthAuthorize',
   },
   media_folder: 'public/img',
   public_folder: 'img',
-  logo_url: 'https://demo.serverless.page/img/logo-cms.jpg',
-  site_url: 'https://demo.serverless.page',
+  logo_url: 'https://app.boostbank.com/img/logo-cms.jpg',
+  site_url: 'https://app.boostbank.com',
   collections: [
     {
       name: 'pages',
