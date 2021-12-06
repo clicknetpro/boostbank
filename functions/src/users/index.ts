@@ -1,6 +1,6 @@
 import * as functions from 'firebase-functions';
 import { addTeamMember, createTeam } from '../teams';
-import { sendWelcomeEmail } from '../emails';
+// import { sendWelcomeEmail } frnpm om '../emails';
 import { db, storage } from '../config';
 
 /**
@@ -21,7 +21,7 @@ export const onUserCreate = functions.firestore
       await createTeam(user);
     }
 
-    await sendWelcomeEmail(user);
+    // await sendWelcomeEmail(user);
 
     return { status: 'success' };
   });

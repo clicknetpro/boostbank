@@ -1,31 +1,29 @@
 export const HOBBY_PLAN = {
   nickname: 'hobby',
-  price: 29,
-  priceId: 'price_1GyDrLAORRjdBXUFYFF7kegx',
+  price: 49,
+  priceId: 'price_1K3mHWHZDWAMlMTv1ZSaWZOm',
   description:
-    'Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard.',
-  title: 'Hobby Plan',
+    'Unlock the BoostBank network standard plan which includes increased commissions, some premium features and a whole range of tools.',
+  title: 'Standard Plan',
   usps: [
-    'Fingerstache disrupt',
-    'Franzen hashtag',
-    'Tilde art party',
-    'Banh mi cornhole',
+    'boostbank-standard',
+    'boostbank standard',
+    'boostbank standard plan',
+    'boostbank basic',
   ],
 };
 
 export const PRO_PLAN = {
   nickname: 'pro',
-  price: 49,
-  priceId: 'price_1H0kfSAORRjdBXUFxoMTAfrx',
+  price: 149,
+  priceId: 'price_1K3mIOHZDWAMlMTvmgevXZZN',
   description:
-    'Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard.',
+    'Unlock PREMIUM features from the BoostBank network when you upgrade to the PRO plan.',
   title: 'Pro Plan',
   usps: [
-    'Fingerstache disrupt',
-    'Franzen hashtag',
-    'Tilde art party',
-    'Banh mi cornhole',
-    'Waistcoat squid hexagon',
-    'Pinterest occupy authentic',
+    'boostbank-pro',
+    'boostbank pro',
+    'boostbank pro plan',
+    'boostbank premium',
   ],
 };
